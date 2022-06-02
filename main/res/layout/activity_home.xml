@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView android:layout_width="23dp"
+        android:layout_height="33dp"/>
+
+        <TextView
+            android:id="@+id/txtVw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="300dp"
+            android:text="Select Type:"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtVw"
+            android:layout_toRightOf="@+id/txtVw" />
+
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtW"
+        android:layout_toRightOf="@+id/txtW" />
+
+        <TextView
+            android:id="@+id/txtW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="350dp"
+            android:text="Model:"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txqW"
+            android:layout_toRightOf="@+id/txqW" />
+
+        <TextView
+            android:id="@+id/txqW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="200dp"
+            android:text="Job Type:"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtaw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="550dp"
+        android:text="Service Adviser:"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtaw"
+        android:layout_toRightOf="@+id/txtaw" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:text="Vehicle No:" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="50dp"
+            android:text="Title:" />
+
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="100dp"
+            android:text="Name:" />
+
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="150dp"
+        android:text="Mobile:" />
+
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="250dp"
+            android:text="Insurance Company:" />
+
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="400dp"
+            android:text="Manufacture Year:" />
+
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="color Code:"
+            android:layout_marginTop="800dp"
+            android:layout_marginLeft="0dp" />
+
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="600dp"
+        android:text="No Of Panels:" />
+
+
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="500dp"
+            android:text="Remarks:" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="450dp"
+        android:text="NIC/Passport:" />
+
+
+        <EditText
+            android:id="@+id/editText12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="650dp"
+            android:text="Driving license:" />
+
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="700dp"
+        android:text="Vat No:" />
+
+    <EditText
+        android:id="@+id/editText14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="750dp"
+        android:text="Office:" />
+
+
+    <EditText
+        android:id="@+id/editText15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="950dp"
+        android:text="Home:" />
+
+    <EditText
+            android:id="@+id/editText16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="850dp"
+            android:text="Fax:" />
+
+        <EditText
+            android:id="@+id/editText17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="900dp"
+            android:text="Email:"
+/>
+
+    <Button
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="1100dp"
+        android:layout_marginEnd="10dp"
+        android:text="Image"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>
